@@ -42,15 +42,28 @@ a {
 
 .hero-content {
     display: flex;
+    flex-direction: row;
 }
 
 .hero-title {
-    font-weight: 500;
     font-size: 48px;
+    font-weight: 700;
     color: #F9FAF8;
 }
 
 .subtext {
     font-size: 18px;
+    font-weight: 300;
     color: #E5E7EB;
+}
+
+.sign-up {
+    background-color: #3882F6;
+    border-radius: 8px;
+    border-style: none;
+    cursor: pointer;
+    height: 35px;
+    width: 120px;
+    font-size: 16px;
+    color: #F9FAF8;
 }
