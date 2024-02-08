@@ -2,18 +2,55 @@
     font-family: 'Roboto', 'Helvetica Neue', sans-serif
 }
 
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+/* body {
+    background-color: #1F2937;
+} */
+
+.body {
+    padding: 0px 40px;
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
+    flex-direction: column;
 }
 
 .top-bar {
     display: flex;
-    flex-direction: column;
+    flex: 1;
+    align-items: center;
+}
+
+.header-links {
+    font-weight: 300;
+    display: flex;
+    margin-left: auto;
+    gap: 20px;
 }
 
 .logo {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
+}
+
+.hero-content {
+    display: flex;
+}
+
+.hero-title {
+    font-weight: 500;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #E5E7EB;
 }
